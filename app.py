@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title="Unit Converter", page_icon="🔄")
+
 # Custom CSS for Stylish UI
 def set_custom_css():
     st.markdown(
@@ -56,7 +58,6 @@ def set_custom_css():
 set_custom_css()
 
 # Streamlit UI
-
 st.title(" 🔄 Google Unit Converter App")
 st.markdown("---")
 st.markdown("### ⚡ Convert Length, Mass, Area, Speed, Time, and Volume Instantly!")
